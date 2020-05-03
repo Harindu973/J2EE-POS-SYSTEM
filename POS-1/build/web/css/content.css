@@ -1,0 +1,27 @@
+body{
+    background-color: #25274d;
+}
+#customers {
+  font-family: 'Arvo', serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff9b00;
+  color: black;
+  font-size: 17px;
+}

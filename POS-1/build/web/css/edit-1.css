@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 3, 2020, 7:15:16 PM
+    Author     : Bhashitha
+*/
+
+body{
+      background-color: #25274d;
+}
+
+.col-md-3{
+   background: #ff9b00;
+   top: 20%;
+   left: 8.8%;
+   padding: 4px;
+   border-radius: 6px;
+   width: 20%;
+   height: 80%; 
+   position: absolute;
+   margin-bottom: 33px;
+   text-align: center;
+   font-size: 30px;
+   padding-top: 5px;
+   font-family: 'Arvo', serif;
+}
+#edit{
+   background-color: white;
+   left:30%;
+   width: 50%;
+   height: 81%;
+   top: 20%;
+   border-radius: 6px;
+   position: absolute;
+   margin-bottom: 33px;
+}
+.text-input{
+   padding-left: 20px;
+   padding-top: 25px;
+}
+.button{
+    letter-spacing: 1px;
+    width: 200px;
+    height: 50px;
+    display: block;
+    background-color: #000099;
+    color: white;
+    text-align:center;
+    font-size: 17px;
+    border-radius: 6px;
+    float:left;
+    margin:5px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.button:hover{
+    background-color:#0099cc;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input{
+    padding-left: 5px;
+    width: 700px;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #cccccc ;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'Baloo 2', cursive;
+}
+.btn-search{
+    letter-spacing: 1px;
+    width: 200px;
+    height: 50px;
+    display: block;
+    background-color: #000099;
+    color: white;
+    text-align:center;
+    font-size: 17px;
+    border-radius: 6px;
+    float:left;
+    border: 2px solid white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.btn-search:hover{
+    background-color:#0099cc;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
