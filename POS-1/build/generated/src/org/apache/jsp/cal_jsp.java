@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class cal_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -47,28 +47,42 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
       out.write("    <head>\n");
-      out.write("        <link href=\"https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+2&family=Fondamento&display=swap\" rel=\"stylesheet\">\n");
-      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/loyality.css\">\n");
+      out.write("        <link href=\"css/cal.css\" rel=\"stylesheet\" >\n");
+      out.write("        <script src=\"css/caljs.js\"></script>\n");
+      out.write("        <link href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css\" rel=\"stylesheet\" id=\"bootstrap-css\">\n");
+      out.write("        <script src=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js\"></script>\n");
+      out.write("        <script src=\"//code.jquery.com/jquery-1.11.1.min.js\"></script>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
       out.write("        <title>JSP Page</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <div class=\"col-md-3\">\n");
-      out.write("        <div class=\"contact-info\">\n");
-      out.write("            <h2>Login</h2>\n");
-      out.write("            <h4>Enter NIC and Password to start the Day!</h4>\n");
-      out.write("        </div>\n");
-      out.write("    </div>\n");
-      out.write("    <form  action=\"\" method=\"post\">\n");
-      out.write("        <input type=\"hidden\" name=\"method\" value=\"add\">\n");
-      out.write("        <div id=\"login\">\n");
-      out.write("            <div class=\"text-input\">\n");
-      out.write("            <input type=\"text\" name=\"nnic\" required=\"required\" placeholder=\"NIC Number\"/><br/>\n");
-      out.write("            <input type=\"password\" name=\"phone\" required=\"required\" placeholder=\"Pasword\"/><br/>\n");
-      out.write("            <input class=\"button\" type=\"submit\" name=\"submit\" value=\"Login\">\n");
-      out.write("            <input class=\"button\" type=\"reset\" name=\"reset\" value=\"Cancel\">\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
+      out.write("     <div id=\"calculator\">\n");
+      out.write("\t<!-- Screen and clear key -->\n");
+      out.write("\t<div class=\"top\">\n");
+      out.write("\t\t<span class=\"clear\">C</span>\n");
+      out.write("\t\t<div class=\"screen\"></div>\n");
+      out.write("\t</div>\n");
+      out.write("\t\n");
+      out.write("\t<div class=\"keys\">\n");
+      out.write("\t\t<!-- operators and other keys -->\n");
+      out.write("\t\t<span>7</span>\n");
+      out.write("\t\t<span>8</span>\n");
+      out.write("\t\t<span>9</span>\n");
+      out.write("\t\t<span class=\"operator\">+</span>\n");
+      out.write("\t\t<span>4</span>\n");
+      out.write("\t\t<span>5</span>\n");
+      out.write("\t\t<span>6</span>\n");
+      out.write("\t\t<span class=\"operator\">-</span>\n");
+      out.write("\t\t<span>1</span>\n");
+      out.write("\t\t<span>2</span>\n");
+      out.write("\t\t<span>3</span>\n");
+      out.write("\t\t<span class=\"operator\">÷</span>\n");
+      out.write("\t\t<span>0</span>\n");
+      out.write("\t\t<span>.</span>\n");
+      out.write("\t\t<span class=\"eval\">=</span>\n");
+      out.write("\t\t<span class=\"operator\">x</span>\n");
+      out.write("\t</div>\n");
+      out.write("</div>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2020, 12:09:32 AM
+    Author     : Bhashitha
+*/
+body{
+    background-color: #25274d;
+}
+.table-container{
+    background-color: white;
+    //margin-top: 10px;
+    width: 65%;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 6px;
+    padding-bottom: 350px;
+}
+#customers {
+    margin-left: 30px;
+    font-family: 'Arvo', serif;
+    border-collapse: collapse;
+    width: 90%;
+    border-radius: 10px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff9b00;
+  color: black;
+  font-size: 17px;
+}
+.customer-container{
+    float: right;
+    background: white;
+    margin: 30px;
+    margin-top: -457px;
+    padding: 30px;
+    padding-bottom: 10px;
+    width: 22%;
+    border-radius: 6px;
+}
+.calculation{
+    background-color: white;
+    float: left;
+    margin: 30px;
+    border-radius: 6px;
+    margin-top: -5px;
+    width: 65.6%;
+    padding: 25px;
+    padding-top: 35px;
+}
+
+input{
+    padding-left: 5px;
+    margin-left: 10px;
+    width: 300px;
+    height: 40px;
+    //margin-top: 7px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #cccccc ;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'Baloo 2', cursive;
+}
+.txt-cal{
+    padding-left: 5px;
+    margin-left: 10px;
+    width: 650px;
+    height: 40px;
+    //margin-top: 7px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #cccccc ;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'Baloo 2', cursive;
+}
+.txt-cal-1{
+    padding-left: 5px;
+    margin-left: 10px;
+    width: 975px;
+    height: 100px;
+    //margin-top: 7px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: black;
+    border-radius: 4px;
+    border: 2px solid red ;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'Baloo 2', cursive;
+}
+.button{
+    letter-spacing: 1px;
+    width: 300px;
+    height: 100px;
+    display: block;
+    background-color: #000099;
+    color: white;
+    text-align:center;
+    font-size: 17px;
+    border-radius: 6px;
+    float:right;
+    //margin:5px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.button:hover{
+    background-color:#0099cc;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.img-container{
+    background: white;
+    float: right;
+    padding: 30px;
+    margin: 30px;
+   margin-top: -620px;
+    //padding: 30px;
+    padding-bottom: 36%;
+    width: 22%;
+    border-radius: 6px;
+    
+    //margin-top: 10px;
+}

@@ -17,7 +17,7 @@
     <body>
     <ul>
      <li class="home"><a href="dashboard.jsp">Dashboard</a></li>
-     <li><a href="cashier_reg.jsp">Cashier Registraion</a></li>
+     <li><a href="content.jsp">Product List</a></li>
      <li><a href="lyality_customer.jsp">Loyality Registraion</a></li>
      <li class="dropdown">
        <a href="javascript:void(0)" class="dropbtn">Products</a>
