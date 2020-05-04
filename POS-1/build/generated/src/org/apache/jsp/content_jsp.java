@@ -78,11 +78,14 @@ public final class content_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\r\n");
       out.write("<head>\r\n");
       out.write("    <link href=\"https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+2&family=Fondamento&display=swap\" rel=\"stylesheet\">\r\n");
-      out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/content.css\">\r\n");
+      out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/content-1.css\">\r\n");
       out.write("    <title>Product List</title>\r\n");
       out.write("</head>\r\n");
       out.write("<body>\r\n");
-      out.write("    \r\n");
+      out.write("    <div class=\"search-container\">\r\n");
+      out.write("       <input type=\"text\" name=\"search\" required=\"required\" placeholder=\"Search here\"/>\r\n");
+      out.write("       <button class=\"btn-search\" type=\"submit\">Search Product</button>\r\n");
+      out.write("    </div>\r\n");
       out.write("    <table align=\"center\" width=\"70%\" border=\"1px\" id=\"customers\">\r\n");
       out.write("        <tr>\r\n");
       out.write("            <th>Barcode</th>\r\n");

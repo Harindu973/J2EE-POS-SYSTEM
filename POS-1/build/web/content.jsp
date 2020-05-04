@@ -9,12 +9,31 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+2&family=Fondamento&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link rel="stylesheet" type="text/css" href="css/content-1.css">
     <title>Product List</title>
 </head>
 <body>
-    
+    <ul>
+        <li class="home"><a href="dashboard.jsp">Dashboard</a></li>
+        <li><a href="cashier_reg.jsp">Cashier Registraion</a></li>
+        <li><a href="lyality_customer.jsp">Loyality Registraion</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Products</a>
+          <div class="dropdown-content">
+            <a href="add.jsp">Add Product</a>
+            <a href="edit.jsp">Edit Product</a>
+            <a href="content.jsp">Product List</a>
+            <a href="#">Discount Update</a>
+          </div>
+        </li>
+        <li class="log"><a href="login.jsp">Logout</a></li>
+    </ul>
+    <div class="search-container">
+       <input type="text" name="search" required="required" placeholder="Search here"/>
+       <button class="btn-search" type="submit">Search Product</button>
+    </div>
     <table align="center" width="70%" border="1px" id="customers">
         <tr>
             <th>Barcode</th>

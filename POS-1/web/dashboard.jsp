@@ -25,10 +25,10 @@
             <a href="add.jsp"><button class="button"><i class="fa fa-plus-square"></i>   Add Products</button></a>
             <a href="edit.jsp"><button class="button"><i class="fa fa-home"></i> Update/Delete Product</button></a>
             <a href="content.jsp"> <button class="button"><i class="fa fa-home"></i> Product Details</button></a>
-            <button class="button"><i class="fa fa-home"></i> Search Product</button>
+            <button class="button"><i class="fa fa-home"></i>Discount Update</button>
             <button class="button"><i class="fa fa-home"></i> Cashier</button>
-            <button class="button"><i class="fa fa-home"></i> Cashier Signup</button>
-            <button class="button"><i class="fa fa-home"></i> Loyality Customer</button>
+            <a href="cashier_reg.jsp"><button class="button"><i class="fa fa-home"></i> Cashier Signup</button></a>
+            <a href="lyality_customer.jsp"><button class="button"><i class="fa fa-home"></i> Loyality Customer</button></a>
             <button class="button"><i class="fa fa-home"></i> Payment Records</button>
         </div>
     </body>

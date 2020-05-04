@@ -25,3 +25,9 @@ body{
   color: black;
   font-size: 17px;
 }
+.search-container{
+    background-color: white;
+    width: 80%;
+    margin: 10px;
+    
+}

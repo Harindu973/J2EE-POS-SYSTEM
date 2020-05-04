@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -47,28 +47,27 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
       out.write("    <head>\n");
-      out.write("        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n");
       out.write("        <link href=\"https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+2&family=Fondamento&display=swap\" rel=\"stylesheet\">\n");
-      out.write("        <link href=\"css/dashboard.css\" rel=\"stylesheet\">\n");
+      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/loyality.css\">\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>DASHBOARD</title>\n");
+      out.write("        <title>JSP Page</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <div class=\"container\">\n");
-      out.write("            <div class=\"contact-info\">\n");
-      out.write("            <h2>Dashboard</h2>\n");
-      out.write("            <h4>Directs to all Sections !</h4>\n");
+      out.write("        <div class=\"col-md-3\">\n");
+      out.write("        <div class=\"contact-info\">\n");
+      out.write("            <h2>Login</h2>\n");
+      out.write("            <h4>Enter NIC and Password to start the Day!</h4>\n");
       out.write("        </div>\n");
-      out.write("        </div>\n");
-      out.write("        <div class=\"link-container\">\n");
-      out.write("            <a href=\"add.jsp\"><button class=\"button\"><i class=\"fa fa-plus-square\"></i>   Add Products</button></a>\n");
-      out.write("            <a href=\"edit.jsp\"><button class=\"button\"><i class=\"fa fa-home\"></i> Update/Delete Product</button></a>\n");
-      out.write("            <a href=\"content.jsp\"> <button class=\"button\"><i class=\"fa fa-home\"></i> Product Details</button></a>\n");
-      out.write("            <button class=\"button\"><i class=\"fa fa-home\"></i>Discount Update</button>\n");
-      out.write("            <button class=\"button\"><i class=\"fa fa-home\"></i> Cashier</button>\n");
-      out.write("            <a href=\"cashier_reg.jsp\"><button class=\"button\"><i class=\"fa fa-home\"></i> Cashier Signup</button></a>\n");
-      out.write("            <a href=\"lyality_customer.jsp\"><button class=\"button\"><i class=\"fa fa-home\"></i> Loyality Customer</button></a>\n");
-      out.write("            <button class=\"button\"><i class=\"fa fa-home\"></i> Payment Records</button>\n");
+      out.write("    </div>\n");
+      out.write("    <form  action=\"\" method=\"post\">\n");
+      out.write("        <input type=\"hidden\" name=\"method\" value=\"add\">\n");
+      out.write("        <div id=\"login\">\n");
+      out.write("            <div class=\"text-input\">\n");
+      out.write("            <input type=\"text\" name=\"nnic\" required=\"required\" placeholder=\"NIC Number\"/><br/>\n");
+      out.write("            <input type=\"password\" name=\"phone\" required=\"required\" placeholder=\"Pasword\"/><br/>\n");
+      out.write("            <input class=\"button\" type=\"submit\" name=\"submit\" value=\"Register\">\n");
+      out.write("            <input class=\"button\" type=\"reset\" name=\"reset\" value=\"Cancel\">\n");
+      out.write("            </div>\n");
       out.write("        </div>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
